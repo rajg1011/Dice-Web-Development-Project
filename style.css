@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #393E46;
+}
+
+.main-heading {
+  text-align: center;
+  margin: 4% 0% 4% 0%;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #4ECCA3;
+  font-family: "Unbounded Bold", cursive;
+}
+
+.player {
+  text-align: center;
+  font-family: "Unbounded", cursive;
+  color: white;
+}
+
+.player img {
+  height: 80%;
+  width: 70%;
+}
+.wins{
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 1.5rem;
+ }
+
+footer {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 1.3rem;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 382px) {
+    .main-heading{
+        font-size: 3.5rem;
+        margin-bottom: 10%;
+    }
+
+    footer{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 213px) {
+    .main-heading{
+        font-size: 1.5rem;
+    }
+    .player{
+        font-size: 0.8rem;
+        margin-bottom: 10%;
+    }
+    .media-flex{
+        flex-direction: column;
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+}
